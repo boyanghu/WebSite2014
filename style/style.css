@@ -1,0 +1,190 @@
+/*
+  black:2A363B
+  green: 6e894e
+  pinnk: e84a5f
+  teal 62beab
+*/
+
+@font-face
+{
+    font-family: lightFont;
+    src: url(font/Roboto-Light.ttf);
+}
+
+@font-face
+{
+    font-family: thinFont;
+    src: url(font/Roboto-Thin.ttf);
+}
+
+@font-face
+{
+    font-family: regularFont;
+    src: url(font/Roboto-Regular.ttf);
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+html {
+    height: 100%;
+    width:100%
+}
+
+body {
+    font-family: lightFont;
+    background-attachment: fixed;
+}
+
+.title_box{
+    width: 100%;
+    height: 19.5rem;
+}
+.title_container {
+    width: 25rem;
+    height: 16rem;
+    overflow: hidden;
+    background-image: url('images/subtle-dots.png');
+    box-shadow: inset 0 0 0 4px #2A363B;
+    margin-left: 2.5rem;
+    margin-top: 2.5rem;
+}
+
+.title_container div {
+    color: #2A363B;
+    text-align: center;
+}
+
+.title {
+    font-size: 7.5rem;
+    line-height: 10rem;
+    margin-top: 0.25rem;
+    font-family: thinFont;
+}
+
+.line {
+    width: 20rem;
+    height: 3px;
+    background-color: #2A363B;
+    margin-left: 2.5rem;
+}
+
+.sub_title {
+    font-size: 2.4rem;
+    line-height: 5rem;
+}
+
+.about_me {
+    overflow: hidden;
+    width: 45rem;
+    height: 16rem;
+    font-size: 1.2rem;
+    color: #2A363B ;
+    font-family: regularFont;
+    margin-top: 2.5rem;
+    left: 28.5rem;
+    position: fixed;
+    line-height: 2rem;
+    background-color: #e84a5f;
+    overflow: hidden;
+}
+
+.about_me_txt {
+    margin-left: 1.75rem;
+    margin-right: 1.75rem;
+    margin-top: 1rem;
+}
+
+.social_container {
+    width: 4rem;
+    height: 12rem;
+    position: fixed;
+    right: 2.5rem;
+    margin-top: 4.5rem;
+    z-index: 10000000;
+}
+
+.social_item {
+    width: 4rem;
+    height: 4rem;
+    overflow: hidden;
+    margin-left:auto;
+    margin-right:0;
+}
+
+.social_item:hover {
+    cursor: pointer;
+    width: 4rem;
+}
+
+#facebook {
+    background-color: #3b5998;
+}
+
+#linkedin {
+    background-color: #007bb6;
+}
+
+#github {
+    background-color: #323232;
+}
+
+.social_img {
+    width: 2rem;
+    height: 2rem;
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+
+.content_container {
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
+    min-height: 100vh;
+    background-color: #62beab;
+    position: relative;
+    z-index: 100;
+}
