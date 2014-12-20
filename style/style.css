@@ -84,7 +84,6 @@ body {
     font-family: lightFont;
     background-attachment: fixed;
     overflow-x: hidden;
-    background-color: #263238;
 }
 
 .w1.h1 {
@@ -169,7 +168,7 @@ body {
 }
 
 #facebook_image {
-    background-image: url(images/facebook.svg);
+    background-image: url(images/facebook3.svg);
 }
 
 #linkedin_image {
@@ -208,11 +207,11 @@ body {
     top: 50%;
     overflow: hidden;
     vertical-align: middle;
-    transition: all 0.2s ease-in;
-    -o-transition: all 0.2s ease-in;
-    -ms-transition: all 0.2s ease-in;
-    -moz-transition: all 0.2s ease-in;
-    -webkit-transition: all 0.2s ease-in;
+    transition: all 0.3s ease-in;
+    -o-transition: all 0.3s ease-in;
+    -ms-transition: all 0.3s ease-in;
+    -moz-transition: all 0.3s ease-in;
+    -webkit-transition: all 0.3s ease-in;
 }
 
 .grid_description {
@@ -224,7 +223,7 @@ body {
     -moz-transform: translate(-50%, -50%);
     color: #eceff1;
     font-family: boldFont;
-    font-size: 3rem;
+    font-size: 2.5rem;
     text-align: center;
 }
 
@@ -310,7 +309,7 @@ body {
     background-image: url("images/mobile.svg");
 }
 
-#wearable {
+#augmented {
     background-image: url("images/glass.jpg");
 }
 
@@ -329,4 +328,90 @@ body {
     margin-top: -4rem;
 }
 
+#personal_projects {
+    background-image: url('images/personal_projects.jpg');
+}
 
+#java {
+    background-image: url('images/java.png');
+}
+
+#html5 {
+    background-color: #d14334;
+}
+
+#html5_image {
+    background-image: url('images/html5.svg');
+}
+
+#css3 {
+    background-color: #00a0b0;
+}
+
+#css3_image {
+    background-image: url('images/css3.svg');
+}
+
+#fullstack {
+    background-color: #005f6b;
+}
+
+#fullstack_image {
+    background-image: url('images/stack.svg');
+}
+
+#speech_recognition {
+    background-color: #524656;
+}
+
+#speech_recognition_image {
+    background-image: url('images/mic2.svg');
+}
+
+#men_stack {
+    background-image: url('images/menstack.jpg');
+}
+
+#web_dev {
+    background-image: url('images/webdev.jpg');
+}
+
+#qrcode {
+    background-color: #000;
+}
+
+#qrcode_image {
+    background-image: url('images/barcode.svg');
+}
+
+#database {
+    background-color: #43a047;
+}
+
+#database_image {
+    background-image: url('images/data.svg');
+}
+
+#map {
+    background-color: #880e4f;
+}
+
+#map_image {
+    background-image: url('images/location.svg');
+}
+
+#wearables {
+    background-color: #1976d2;
+}
+
+#wearable_image {
+    background-image: url('images/watch.svg');
+}
+
+#alarm {
+    background-color: #c62828;
+}
+
+#alarm_image {
+    background-image: url('images/alarm.svg');
+}
