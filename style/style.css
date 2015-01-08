@@ -84,6 +84,7 @@ body {
     font-family: lightFont;
     background-attachment: fixed;
     overflow-x: hidden;
+	background-color: #333333;
 }
 
 .w1.h1 {
@@ -414,4 +415,22 @@ body {
 
 #alarm_image {
     background-image: url('images/alarm.svg');
+}
+
+#mail {
+	background-color: #eceff1;
+	text-align: center;
+	}
+
+#mail_image {
+	background-image: url('images/mail.svg');
+}
+
+.inner_border {
+	position: absolute;
+	width: 90%;
+	height: 80%;
+	top: 10%;
+	left: 5%;
+	box-shadow: inset 0px 0px 0px 6px #37474f;
 }
