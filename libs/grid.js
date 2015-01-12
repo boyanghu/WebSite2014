@@ -9,6 +9,7 @@ function setDimensionsOfContainerContent(container) {
     var baseContentWidth = getBaseContentWidth(container);
     container.children(".w1").width(baseContentWidth);
     container.children(".w2").width(baseContentWidth * 2);
+    container.children(".w3").width(baseContentWidth * 3);
     container.children(".h1").height(baseContentWidth);
     container.children(".h2").height(baseContentWidth * 2);
     console.log(container.children(".w1").length);
@@ -35,8 +36,10 @@ function placeContainerContent(containerContent, maxElementsPerRow, baseContentW
         var contentHeight = 0;
         if ($(containerContent[i]).hasClass("w1")) {
             contentWidth = 1;
-        } else {
+        } else if ($(containerContent[i]).hasClass("w2")){
             contentWidth = 2;
+        } else {
+            contentWidth = 3;
         }
         if ($(containerContent[i]).hasClass("h1")) {
             contentHeight = 1;

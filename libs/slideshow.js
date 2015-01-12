@@ -1,0 +1,3 @@
+function startSlideShow(folderLocation, listOfImages) {
+
+}

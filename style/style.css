@@ -87,21 +87,6 @@ body {
 	background-color: #333333;
 }
 
-.w1.h1 {
-    background-color: #ffeaad;
-}
-
-.w2.h1 {
-}
-
-.w1.h2 {
-    background-color: #b3e099;
-}
-
-.w2.h2 {
-    background-color: #d14334;
-}
-
 .about_me {
     font-size: 1.2rem;
     line-height: 2rem;
@@ -433,4 +418,8 @@ body {
 	top: 10%;
 	left: 5%;
 	box-shadow: inset 0px 0px 0px 6px #37474f;
+}
+
+#back_image {
+    background-image: url('images/back.svg');
 }

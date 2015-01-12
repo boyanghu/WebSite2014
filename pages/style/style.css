@@ -1,0 +1,129 @@
+iframe{
+    display: block;
+    width:100%;
+}
+
+.center_text {
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    padding: 1rem;
+    text-align: center;
+    line-height: 2.4rem;
+}
+
+.center_text:hover {
+    cursor: default;
+}
+
+.regular {
+    font-family: regularFont;
+}
+
+.light {
+    font-family: lightFont;
+}
+
+.thin {
+    font-family: thinFont;
+}
+
+.bold {
+    font-family: boldFont;
+}
+
+.big {
+    font-size: 7rem;
+}
+
+.medium {
+    font-size: 3rem;
+}
+
+.small {
+    font-size: 1.8rem;
+}
+
+.o1 {
+    background-color: #ff5722;
+}
+
+.o2 {
+    background-color: #f4511e;
+}
+
+.o3 {
+    background-color: #e64a19;
+}
+
+.o4 {
+    background-color: #d84315;
+}
+
+.o5 {
+    background-color: #bf360c;
+}
+
+.r1 {
+    background-color: #f44336;
+}
+
+.r2 {
+    background-color: #e53935;
+}
+
+.r3 {
+    background-color: #d32f2f;
+}
+
+.r4 {
+    background-color: #c62828;
+}
+
+.r5 {
+    background-color: #b71c1c;
+}
+
+.p1 {
+    background-color: #e91e63;
+}
+
+.p2 {
+    background-color: #D81b60;
+}
+
+.p3 {
+    background-color: #c2185b;
+}
+
+.p4 {
+    background-color: #ad1457;
+}
+
+.p5 {
+    background-color: #880e4f;
+}
+
+.b1 {
+    background-color: #2196f3;
+}
+
+.b2 {
+    background-color: #1e88e5;
+}
+
+.b3 {
+    background-color: #1976d2;
+}
+
+.b4 {
+    background-color: #1565c0;
+}
+
+.b5 {
+    background-color: #0d47a1;
+}
+
