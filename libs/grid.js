@@ -1,3 +1,9 @@
+function initializeGrid() {
+	var container = $("#grid");
+    setDimensionsOfContainerContent(container);
+	placeContainerContent(container.children("div"), getMaxElementsPerRow(container), getBaseContentWidth(container));
+}
+
 function refreshGrid() {
     var container = $("#grid");
     setDimensionsOfContainerContent(container);
