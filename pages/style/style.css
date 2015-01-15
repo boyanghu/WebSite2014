@@ -39,12 +39,17 @@ iframe{
     font-family: boldFont;
 }
 
+.italic {
+	font-family: italicFont;
+}
+
 .big {
     font-size: 7rem;
 }
 
 .medium {
     font-size: 3rem;
+	line-height: 4rem;
 }
 
 .small {

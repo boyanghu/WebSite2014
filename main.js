@@ -1,5 +1,5 @@
-$(window).load(function () {
-    initializeGrid();
+$(document).ready(function () {
+    refreshGrid();
     addClickHandlers();
 });
 

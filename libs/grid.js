@@ -1,9 +1,3 @@
-function initializeGrid() {
-	var container = $("#grid");
-    setDimensionsOfContainerContent(container);
-	placeContainerContent(container.children("div"), getMaxElementsPerRow(container), getBaseContentWidth(container));
-}
-
 function refreshGrid() {
     var container = $("#grid");
     setDimensionsOfContainerContent(container);
@@ -15,7 +9,11 @@ function setDimensionsOfContainerContent(container) {
     var baseContentWidth = getBaseContentWidth(container);
     container.children(".w1").width(baseContentWidth);
     container.children(".w2").width(baseContentWidth * 2);
-    container.children(".w3").width(baseContentWidth * 3);
+	if (getMaxElementsPerRow(container) < 3) {
+		container.children(".w3").width(baseContentWidth * getMaxElementsPerRow(container));
+	} else {
+		container.children(".w3").width(baseContentWidth * 3);
+	}
     container.children(".h1").height(baseContentWidth);
     container.children(".h2").height(baseContentWidth * 2);
     console.log(container.children(".w1").length);
@@ -45,7 +43,11 @@ function placeContainerContent(containerContent, maxElementsPerRow, baseContentW
         } else if ($(containerContent[i]).hasClass("w2")){
             contentWidth = 2;
         } else {
-            contentWidth = 3;
+			if (maxElementsPerRow >= 3) {
+				contentWidth = 3;
+			} else {
+				contentWidth = maxElementsPerRow;
+			}
         }
         if ($(containerContent[i]).hasClass("h1")) {
             contentHeight = 1;

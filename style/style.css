@@ -12,7 +12,7 @@
 
 @font-face {
     font-family: thinFont;
-    src: url(font/JosefinSlab-Thin.ttf);
+    src: url(font/Roboto-Thin.ttf);
 }
 
 @font-face {
@@ -23,6 +23,11 @@
 @font-face {
     font-family: boldFont;
     src: url(font/JosefinSlab-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: italicFont;
+    src: url(font/Roboto-LightItalic.ttf);
 }
 
 html, body, div, span, applet, object, iframe,
