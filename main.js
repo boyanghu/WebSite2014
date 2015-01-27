@@ -29,6 +29,17 @@ function addClickHandlers() {
             playClickEffect(element, e);
         }, 500);
     });
-
+	
+	$("#back").click(function() {
+		goTo('../index.html');
+	})
 }
+
+function goTo(location) {
+	window.location.replace(location);
+} 
+
+function newTab(location) {
+	window.open(location);
+} 
 
