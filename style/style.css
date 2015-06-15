@@ -166,7 +166,7 @@ body {
     background-image: url(images/linkedin.svg);
 }
 
-#github_image {
+.github_image {
     background-image: url(images/github.svg);
 }
 
@@ -216,6 +216,12 @@ body {
     font-family: boldFont;
     font-size: 2.5rem;
     text-align: center;
+}
+
+.sub_grid_description {
+    margin-top: 3rem;
+    font-size: 1.5rem;
+    line-height: 2rem;
 }
 
 .cursor_bump {
@@ -414,6 +420,14 @@ body {
 
 #mail_image {
 	background-image: url('images/mail.svg');
+}
+
+#android_image {
+    background-image: url('images/android.svg');
+}
+
+.link {
+    background-image: url('images/link.svg');
 }
 
 .inner_border {

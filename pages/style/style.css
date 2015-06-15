@@ -56,6 +56,30 @@ iframe{
     font-size: 1.8rem;
 }
 
+#allegro_title {
+    background-image: url("../images/allegro/allegro13.png");
+}
+
+#allegro_dashboard {
+    background-image: url("../images/allegro/allegro5.png");
+}
+
+#allegro_mobile {
+    background-image: url("../images/allegro/allegro15.jpg");
+}
+
+#concept_1 {
+     background-image: url("../images/concept/abOuT%20design_round-page-001.jpg");
+ }
+
+#concept_2 {
+    background-image: url("../images/concept/abOuT%20design_round-page-003.jpg");
+}
+
+#concept_3 {
+    background-image: url("../images/concept/abOuT%20design_round-page-002.jpg");
+}
+
 .o1 {
     background-color: #ff5722;
 }
@@ -175,5 +199,6 @@ iframe{
 .y5 {
     background-color: #f9a825;
 }
+
 
 
